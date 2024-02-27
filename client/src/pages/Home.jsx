@@ -32,7 +32,7 @@ const Home = () => {
     ];
   return (
     <div className='home'>
-        <Navbar/>
+       
         <div className="posts">
           {posts.map(post=>(
             <div className="post key={post.id}">
@@ -49,7 +49,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-        <Footer/> 
+       
     </div>
   )
 }
